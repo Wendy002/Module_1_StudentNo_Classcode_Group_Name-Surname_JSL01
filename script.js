@@ -1,6 +1,9 @@
 function validateSyntax() {
-    let input = document.getElementById('petInput').value;
+    debugger;
+    const input = document.getElementById('petInput').value;
     // Validation logic goes here
+    console.log(input.slice(0,4));
+
     if (input[0,4] === "pet_" && _.isNumber(input[4,8])){
 
         let result = `Valid Syntax \U+1F4AF`;
@@ -12,8 +15,8 @@ function validateSyntax() {
 
     // TODO: Write your validation logic here
         // Check if input starts with 'pet_' and followed by alphanumeric characters
-
-    document.getElementById('result').innerText = result;
+    console.log(result)
+    document.getElementById('result').textContent = result;
 }
 
 
