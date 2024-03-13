@@ -8,11 +8,11 @@ function validateSyntax() {
     if (input.slice(0,4) !== "pet_" && isNaN(input.slice(4,8))){
 
         
-        result = `Invalid Syntax \U+1FAE3`;
+        result = `Invalid Syntax \u{1FAE3} `;
         
     }  else{
 
-        result = `Valid Syntax \U+1F4AF`;
+        result = `Valid Syntax \u{1F4AF}`;
         
     }
 
