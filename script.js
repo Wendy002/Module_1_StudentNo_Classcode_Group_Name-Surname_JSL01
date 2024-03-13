@@ -1,6 +1,9 @@
 function validateSyntax() {
     let input = document.getElementById('petInput').value;
     // Validation logic goes here
+    if (input[0,4] === "pet_" && _.isNumber(input[4,8])){
+        
+    }
     let result = ''; // Placeholder for validation result
 
     // TODO: Write your validation logic here
