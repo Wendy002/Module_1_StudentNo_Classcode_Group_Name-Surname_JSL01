@@ -9,10 +9,12 @@ function validateSyntax() {
 
         //invalid syntax
         result = `Invalid Syntax \u{1FAE3} `;
+        alert("Enter Valid input :(");
         
     }  else{
            //valid syntax
         result = `Valid Syntax \u{1F4AF}`;
+        alert("Yay Valid input!!!");
         
     }
 
